@@ -19,3 +19,8 @@
   4:     baseURL: "http://localhost:3000/api",
   5: });
   ```
+6. login in the app with credentials
+```
+email: test@test.com
+password: test
+```

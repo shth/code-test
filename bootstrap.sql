@@ -57,6 +57,26 @@ INSERT INTO `consultations` (
         'cold',
         'panadol',
         123.40,
-        '2021-01-01 00:00:00',
+        '2021-03-14 10:30:00',
+        true
+	);
+        
+INSERT INTO `consultations` (
+  `clinicId`,
+  `doctorName`,
+  `patientName`,
+  `diagnosis`,
+  `medication`,
+  `consultationFee`,
+  `dateTime`,
+  `hasFollowUp`
+    ) VALUES (
+        '1', 
+		'test doctor 2',
+        'test patient 2',
+        'fever',
+        'panadol',
+        321.00,
+        '2021-03-15 11:00:00',
         true
 	);

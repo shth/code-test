@@ -62,7 +62,8 @@ export default function ConsultationsScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Consultations</Text>
-      <Button title="Create" onPress={() => navigation.navigate("CreateConsultation")}/>
+      {/* not finished */}
+      {/* <Button title="Create" onPress={() => navigation.navigate("CreateConsultation")}/> */}
       <Agenda 
       selected={currentDate}
       items={mapConsultaionsToAgendaItems(consultationsByMonth)}
